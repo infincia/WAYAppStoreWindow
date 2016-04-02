@@ -28,8 +28,6 @@
 
 #pragma mark - WAYDefensiveWindow
 /** Internally, if the class decides to use WAYWindow instead of INAppStoreWindow, we won't use WAYWindow directly, but its subclass WAYDefensiveWindow instead, which logs warnings, if the developer calls a method, which is only implemented by INAppStoreWindow. This may happen if the developer tries to make use of features of INAppStoreWindow, which have not been ported yet to WAYWindow. */
-@interface WAYDefensiveWindow : WAYWindow
-@end
 
 // DUMMY FUNCTION
 void WAYDefensiveWindowDummyIMP(id self, SEL _cmd) {

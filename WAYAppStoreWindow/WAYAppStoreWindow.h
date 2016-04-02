@@ -22,7 +22,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "WAYWindow.h"
+#import "INAppStoreWindow.h"
+
 @class INWindowButton;
+
+@interface WAYDefensiveWindow : WAYWindow
+@end
 
 /** This NSWindow subclass allows you to use create NSWindow that provide INAppStoreWindow like capabilities. The class switches between either WAYWindow or INAppStoreWindow at runtime based on the OS version. The way it is done is kind of experimental and currently only basic functionality of the original INAppStoreWindow is supported. Lots of INAppStoreWindow's properties probably do not work. Basically, only the functions that WAYWindow is implementing, are currently supported.
  */
