@@ -1,0 +1,6 @@
+[submodule "INAppStoreWindow"]
+	path = INAppStoreWindow
+	url = https://github.com/indragiek/INAppStoreWindow
+[submodule "WAYWindow"]
+	path = WAYWindow
+	url = https://github.com/weAreYeah/WAYWindow.git
